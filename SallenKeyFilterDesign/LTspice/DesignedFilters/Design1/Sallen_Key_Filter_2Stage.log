@@ -1,15 +1,15 @@
 LTspice 26.0.2 for Windows
-Circuit: C:\h_da\semester-2\TeamProject\Design of an anti-aliasing Sallen-Key filter_LTspice\LTspice Sims\Sallen_Key_Filter_2Stage.net
-Start Time: Tue May 26 01:53:13 2026
+Circuit: C:\Users\Mike\Documents\GitHub\nucleo-g474re-audio-board\SallenKeyFilterDesign\LTspice\DesignedFilters\Design1\Sallen_Key_Filter_2Stage.net
+Start Time: Tue May 26 09:20:17 2026
 solver = Normal
 Maximum thread count: 16
 tnom = 27
 temp = 27
 method = trap
 Direct Newton iteration succeeded in finding operating point.
-Total elapsed time: 0.163 seconds.
+Total elapsed time: 0.261 seconds.
 
 Files loaded:
-C:\h_da\semester-2\TeamProject\Design of an anti-aliasing Sallen-Key filter_LTspice\LTspice Sims\Sallen_Key_Filter_2Stage.net
+C:\Users\Mike\Documents\GitHub\nucleo-g474re-audio-board\SallenKeyFilterDesign\LTspice\DesignedFilters\Design1\Sallen_Key_Filter_2Stage.net
 C:\Users\Mike\AppData\Local\LTspice\lib\sub\ADA4096.lib
 
