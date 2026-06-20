@@ -1,0 +1,15 @@
+LTspice 26.0.2 for Windows
+Circuit: C:\Users\Mike\Documents\GitHub\nucleo-g474re-audio-board\SallenKeyFilterDesign\AD_Design_Files\AAF_AFW_19k_100k_DesignFiles\SPICE Files\LTspice\ACAnalysis.net
+Start Time: Fri Jun 12 20:24:39 2026
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration succeeded in finding operating point.
+Total elapsed time: 0.239 seconds.
+
+Files loaded:
+C:\Users\Mike\Documents\GitHub\nucleo-g474re-audio-board\SallenKeyFilterDesign\AD_Design_Files\AAF_AFW_19k_100k_DesignFiles\SPICE Files\LTspice\ACAnalysis.net
+C:\Users\Mike\AppData\Local\LTspice\lib\sub\AD8655.sub
+

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "STM32G474RE_Arduino_Extension-altium-import")(type "KiCad")(uri "${KIPRJMOD}/STM32G474RE_Arduino_Extension-altium-import.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,190 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5549bd58-9deb-4bcd-b567-f15622eb9fdb")
+	(paper "A4")
+	(title_block
+		(title "Audio Expansion Board")
+		(date "2026-06-19")
+		(rev "Rev 0.1")
+		(company "Module: Team Project")
+		(comment 1 "Professor Jakob")
+		(comment 2 "Michael Fisher")
+	)
+	(lib_symbols)
+	(sheet
+		(at 41.91 41.91)
+		(size 22.86 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "93c81ac1-3187-42d0-8454-841cba432f02")
+		(property "Sheetname" "01_power"
+			(at 41.91 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "01_power.kicad_sch"
+			(at 41.91 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AudioExpansionBoard"
+				(path "/5549bd58-9deb-4bcd-b567-f15622eb9fdb"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 41.91)
+		(size 22.86 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c427705d-da8c-47dc-8bdf-d6ca881ca966")
+		(property "Sheetname" "02_mcu"
+			(at 71.12 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "02_mcu.kicad_sch"
+			(at 71.12 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AudioExpansionBoard"
+				(path "/5549bd58-9deb-4bcd-b567-f15622eb9fdb"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 41.91)
+		(size 22.86 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cd70ae8a-d118-45e2-adb5-e935d5d0f1d2")
+		(property "Sheetname" "03_codec"
+			(at 100.33 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "03_codec.kicad_sch"
+			(at 100.33 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AudioExpansionBoard"
+				(path "/5549bd58-9deb-4bcd-b567-f15622eb9fdb"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 129.54 41.91)
+		(size 22.86 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fa21f277-d72a-412c-bdcf-310d0f20bca0")
+		(property "Sheetname" "04_analog_input"
+			(at 129.54 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "04_analog_input.kicad_sch"
+			(at 129.54 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "AudioExpansionBoard"
+				(path "/5549bd58-9deb-4bcd-b567-f15622eb9fdb"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

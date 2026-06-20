@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "XTAC5212IRGER")(type "KiCad")(uri "C:/Users/Mike/Documents/GitHub/nucleo-g474re-audio-board/KiCad/ul_XTAC5212IRGER/KiCADv6/2026-06-07_19-56-55.kicad_sym")(options "")(descr ""))
+  (lib (name "ADA4096-2ARMZ")(type "KiCad")(uri "C:/Users/Mike/Downloads/ul_ADA4096-2ARMZ/KiCADv6/2026-06-17_17-44-22.kicad_sym")(options "")(descr ""))
+  (lib (name "IM67D128BV01")(type "KiCad")(uri "C:/Users/Mike/Downloads/infineon-pcb-footprints-and-symbols-im67d128b-mems-microphones-for-consumer-kicad-pcbdesigndata-en/IM67D128B.kicad_sym")(options "")(descr ""))
+)

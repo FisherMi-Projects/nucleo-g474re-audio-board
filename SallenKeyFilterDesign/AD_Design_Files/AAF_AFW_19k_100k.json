@@ -1,0 +1,72 @@
+{
+	"Name": "AAF_AFW_19k_100k",
+	"Description": "Anti-Aliasing Filter design with Analog Devices' \"Analog Filter Wizard\" design tool. Specifications include fc_19k, fsb_100k, Butterworth filter model (middle of optimization for steep drop-off and least amount of stages, optimized for lower noise, and Capacitor and Resistor values based on E24 values. ",
+	"Tool": "FW",
+	"Version": "1.3",
+	"Design": {
+		"visitedTabs": [
+			"filter-type",
+			"specifications",
+			"components",
+			"tolerances",
+			"next-steps"
+		],
+		"filterType": "lowPass",
+		"specifications": {
+			"gain": 0,
+			"gainUnit": "dB",
+			"passbandAttenuation": -3,
+			"passbandFrequency": 19000,
+			"stopbandAttenuation": -40,
+			"stopbandFrequency": 100000,
+			"filterResponseValue": 0,
+			"filterResponseSlider": "50"
+		},
+		"components": {
+			"vsPlus": 5,
+			"vsMinus": 0,
+			"optimization": "Noise",
+			"optimizationPreference": "nonSpecific",
+			"compensateForGbw": false,
+			"preferredAlgorithms": {
+				"sallenKey|lowPass": "lowpassV2"
+			},
+			"referenceVoltage": 0,
+			"stages": [
+				{
+					"stageLetter": "A",
+					"componentSizing": 70,
+					"gain": -1,
+					"gainEnabled": false,
+					"implementation": "firstOrder",
+					"opAmps": "AD8656"
+				},
+				{
+					"stageLetter": "B",
+					"componentSizing": 70,
+					"gain": -1,
+					"gainEnabled": false,
+					"implementation": "sallenKey",
+					"opAmps": "AD8656"
+				}
+			],
+			"recommendedAmps": [],
+			"sortOrder": [
+				1,
+				0
+			]
+		},
+		"tolerances": {
+			"resistorTolerance": "1%",
+			"capacitorTolerance": "5%",
+			"inductorTolerance": "5%",
+			"opAmpGbwTolerance": "20%",
+			"resistorPreferredSeries": "E24",
+			"capacitorPreferredSeries": "E24",
+			"inductorPreferredSeries": "E12"
+		},
+		"nextSteps": {}
+	},
+	"CreatedDate": "2026-06-12 08:19:41 PM",
+	"UpdatedDate": "2026-06-12 08:19:41 PM"
+}
