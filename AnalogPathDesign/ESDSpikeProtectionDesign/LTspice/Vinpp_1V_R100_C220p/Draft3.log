@@ -1,0 +1,6 @@
+LTspice 26.0.2 for Windows
+Circuit: C:\Users\Mike\Documents\GitHub\nucleo-g474re-audio-board\AnalogPathDesign\ESDSpikeProtectionDesign\LTspice\Vinpp_1V_R100_C220p\Draft3.net
+Start Time: Fri Jul  3 21:41:41 2026
+C:\Users\Mike\Documents\GitHub\nucleo-g474re-audio-board\AnalogPathDesign\ESDSpikeProtectionDesign\LTspice\Vinpp_1V_R100_C220p\Draft3.net(7): This sub-circuit name is not defined.
+X§U1 N002 Voffset N003 0 Voffset opamp2 ;§pnba In+)In-)V+)V-)OUT
+                                 ^^^^^^

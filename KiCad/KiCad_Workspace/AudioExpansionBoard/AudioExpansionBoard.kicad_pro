@@ -597,6 +597,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "empty.kicad_wks",
     "plot_directory": "",
     "space_save_all_events": true,
@@ -629,6 +637,10 @@
     [
       "fa21f277-d72a-412c-bdcf-310d0f20bca0",
       "04_analog_input"
+    ],
+    [
+      "e9d691d4-97f4-4fe7-88b2-17249e4cdf41",
+      "ESD_Protection_Circuit"
     ]
   ],
   "text_variables": {
